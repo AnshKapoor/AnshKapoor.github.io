@@ -4,4 +4,15 @@ div#navbar{
     border-style: solid;
     border-width: 2px;
     border-radius: 3px;
+    align-content: center;
+    border-color: cornflowerblue;
+
+}
+div#navbar .head{
+    font-family: sans-serif;
+    font-size: 10px;
+    font-style: initial;
+    font-weight: 300;
+    color:blueviolet;
+    text-align: justify;
 }
