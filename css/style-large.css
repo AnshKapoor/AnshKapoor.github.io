@@ -42,7 +42,7 @@ div.main-column h1#header {
             
                 from {background-position:0 0;}
             
-                to {background-position:-1000px 5000px;}
+                to {background-position:-100px 500px;}
             
             }
             
@@ -50,7 +50,7 @@ div.main-column h1#header {
             
                 from {background-position:0 0;}
             
-                to {background-position:-1000px 5000px;}
+                to {background-position:-100px 500px;}
             
             }
            
@@ -58,7 +58,7 @@ div.main-column h1#header {
             
                 from {background-position:0 0;}
             
-                to {background-position:-1000px 5000px;}
+                to {background-position:-100px 500px;}
             
             }
             
@@ -66,7 +66,7 @@ div.main-column h1#header {
             
                 from {background-position:0 0;}
             
-                to {background-position:-1000px 5000px;}
+                to {background-position:-100px 500px;}
             
             }
             
@@ -74,7 +74,7 @@ div.main-column h1#header {
             
                 from {background-position:0 0;}
             
-                to {background-position:1000px 0;}
+                to {background-position:100px 0;}
             
             }
             
@@ -82,7 +82,7 @@ div.main-column h1#header {
             
                 from {background-position:0 0;}
             
-                to {background-position:1000px 0;}
+                to {background-position:100px 0;}
             
             }
             
@@ -90,7 +90,7 @@ div.main-column h1#header {
             
                 from {background-position:0 0;}
             
-                to {background-position:1000px 0;}
+                to {background-position:100px 0;}
             
             }
             
@@ -98,7 +98,7 @@ div.main-column h1#header {
             
                 from {background-position: 0;}
             
-                to {background-position:1000px 0;}
+                to {background-position:100px 0;}
             
             }
             
@@ -136,15 +136,15 @@ div.main-column h1#header {
             
               z-index:1;
             
-              -moz-animation:move-twink-back 200s linear infinite;
+              -moz-animation:move-twink-back 20s alternate-reverse 1;
             
-              -ms-animation:move-twink-back 200s linear infinite;
+              -ms-animation:move-twink-back 20s alternate-reverse 1;
             
-              -o-animation:move-twink-back 200s linear infinite;
+              -o-animation:move-twink-back 20s alternate-reverse 1;
             
-              -webkit-animation:move-twink-back 200s linear infinite;
+              -webkit-animation:move-twink-back 20s alternate-reverse 1;
             
-              animation:move-twink-back 200s linear infinite;
+              animation:move-twink-back 20s alternate-reverse 1;
             
             }
             
@@ -154,15 +154,15 @@ div.main-column h1#header {
             
                 z-index:3;
             
-              -moz-animation:move-clouds-back 20s linear infinite;
+              -moz-animation:move-clouds-back 200s linear infinite;
         
-              -ms-animation:move-clouds-back 20s linear infinite;
+              -ms-animation:move-clouds-back 200s linear infinite;
             
-              -o-animation:move-clouds-back 20s linear infinite;
+              -o-animation:move-clouds-back 200s linear infinite;
             
-              -webkit-animation:move-clouds-back 20s linear infinite;
+              -webkit-animation:move-clouds-back 200s linear infinite;
             
-              animation:move-clouds-back 20s linear infinite;
+              animation:move-clouds-back 200s linear infinite;
             
             }
             .main-column .stars #ak{
@@ -174,6 +174,6 @@ div.main-column h1#header {
                 animation-duration: 2s;
                 animation-timing-function: ease-in;
                 z-index:18;
-                color:blanchedalmond;
+                color:rgb(19, 9, 156);
                 text-emphasis: bold;
             }
