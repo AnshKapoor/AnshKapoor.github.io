@@ -42,7 +42,7 @@ div.main-column h1#header {
             
                 from {background-position:0 0;}
             
-                to {background-position:-100px 500px;}
+                to {background-position:-1000px 5000px;}
             
             }
             
@@ -50,7 +50,7 @@ div.main-column h1#header {
             
                 from {background-position:0 0;}
             
-                to {background-position:-100px 500px;}
+                to {background-position:-1000px 5000px;}
             
             }
            
@@ -58,7 +58,7 @@ div.main-column h1#header {
             
                 from {background-position:0 0;}
             
-                to {background-position:-100px 500px;}
+                to {background-position:-1000px 5000px;}
             
             }
             
@@ -66,7 +66,7 @@ div.main-column h1#header {
             
                 from {background-position:0 0;}
             
-                to {background-position:-100px 500px;}
+                to {background-position:-1000px 5000px;}
             
             }
             
@@ -74,7 +74,7 @@ div.main-column h1#header {
             
                 from {background-position:0 0;}
             
-                to {background-position:100px 0;}
+                to {background-position:1000px 0;}
             
             }
             
@@ -82,7 +82,7 @@ div.main-column h1#header {
             
                 from {background-position:0 0;}
             
-                to {background-position:100px 0;}
+                to {background-position:1000px 0;}
             
             }
             
@@ -90,7 +90,7 @@ div.main-column h1#header {
             
                 from {background-position:0 0;}
             
-                to {background-position:100px 0;}
+                to {background-position:1000px 0;}
             
             }
             
@@ -98,7 +98,7 @@ div.main-column h1#header {
             
                 from {background-position: 0;}
             
-                to {background-position:100px 0;}
+                to {background-position:1000px 0;}
             
             }
             
@@ -174,7 +174,7 @@ div.main-column h1#header {
                 animation-duration: 2s;
                 animation-timing-function: ease-in;
                 z-index:18;
-                color:rgb(19, 9, 156);
+                color:rgb(85, 84, 100);
                 text-emphasis: bold;
             }
             .button {
