@@ -177,3 +177,17 @@ div.main-column h1#header {
                 color:rgb(19, 9, 156);
                 text-emphasis: bold;
             }
+            .button {
+                background-color: #ddd;
+                border: none;
+                color: rgb(59, 53, 53);
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 16px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: 400;
+              }
