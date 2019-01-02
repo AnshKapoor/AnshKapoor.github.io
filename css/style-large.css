@@ -165,10 +165,10 @@ div.main-column h1#header {
               animation:move-clouds-back 200s linear infinite;
             
             }
-            .main-column .stars #ak{
+             .stars .main-column #ak{
                 font-size: 50px;
                 font-family: 'Times New Roman', Times, serif;
-                margin-top:20%;
+                margin-top:19%;
                 margin-left:20%;
                 animation-name: moveInLeft;
                 animation-duration: 2s;
@@ -190,4 +190,39 @@ div.main-column h1#header {
                 border-radius: 16px;
                 font-family: Georgia, 'Times New Roman', Times, serif;
                 font-weight: 400;
+              }
+              .button:hover{
+                background-color: rgb(255, 253, 253);
+              }
+             
+              .topnav {
+                background-color: rgb(53, 50, 50);
+                overflow: hidden;
+                visibility:hidden;
+              }
+              
+              /* Style the links inside the navigation bar */
+              .topnav a {
+                float: left;
+                color: #ffffff;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                margin-left:60px;
+              }
+              .topnav .icon {
+                display: none;
+              }
+              
+              /* Change the color of links on hover */
+              .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+              }
+              
+              /* Add a color to the active/current link */
+              .topnav a.active {
+                background-color: rgb(167, 168, 167);
+                color: white;
               }

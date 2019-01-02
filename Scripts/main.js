@@ -6,6 +6,7 @@ function Create_Button(){
 var button = "<button>Click here to view my profile</button>";
 $("#header").append(button);
 $("#header button").addClass("button");
+$(".topnav").css('visibility','visible');
 }
 window.onload = function(){
 setTimeout(RemoveClasses,10000);
