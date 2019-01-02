@@ -103,7 +103,11 @@ div.main-column h1#header {
             }
             
             .stars, .twinkling, .clouds {
-            
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                height: 100%;
               position:absolute;
             
               top:0;
@@ -123,6 +127,11 @@ div.main-column h1#header {
             }
         
             .stars {
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                height: 100%;
             
               background:rgb(0, 0, 0) url(../images/stars.png) repeat top center;
             
@@ -131,6 +140,11 @@ div.main-column h1#header {
             }
             
             .twinkling{
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                height: 100%;
             
               background:transparent url(../images/twinkling.png) repeat top center;
             
@@ -149,6 +163,11 @@ div.main-column h1#header {
             }
             
             .clouds{
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                height: 100%;
             
                 background:transparent url(../images/clouds.png) repeat top center;
             
