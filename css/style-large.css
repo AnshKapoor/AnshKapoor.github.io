@@ -22,7 +22,7 @@ div.upper-column  {
     margin-top:4%;
     border:none;
     border-radius: 10px 5px 10px 5px;
-    background:linear-gradient(to bottom right, rgb(198, 219, 231), rgb(119, 184, 216));
+    
     z-index:6;
    ;
 }
@@ -72,12 +72,12 @@ div.upper-column  {
               }
              img#profile{
                 height:27vh;
-                width:16vw;
+                width:18vw;
                  margin-top:1%;
                   display:block;
                   margin-left: auto;
                   margin-right: auto;
                   opacity:1.0;
                   z-index:7;
-                  box-shadow: 5px 3px 3px 5px rgb(89, 124, 231);
+                  
               }
