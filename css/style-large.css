@@ -81,3 +81,9 @@ div.upper-column  {
                   z-index:7;
                   
               }
+              @media screen and (max-width: 600px) {
+                img#profile{
+                    height:27vh;
+                    width:24vw;
+              }
+            }
