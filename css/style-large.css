@@ -15,18 +15,16 @@ html{
      background-size: cover;
 }
 
-div.main-column h1#header {
-    width: 80%;
-    margin-left: 13%;
-    margin-top: 1%;
-    color: hsla(163, 9%, 84%, 0.83);
-    font-style: italic;
-    font-family: cursive;
-    animation-name: moveInLeft;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
-    animation-delay: 2s;
-    z-index:15;
+div.upper-column  {
+    position: absolute;
+    width: 100vw;
+    height:30vh;
+    margin-top:4%;
+    border:none;
+    border-radius: 10px 5px 10px 5px;
+    background:linear-gradient(to bottom right, rgb(198, 219, 231), rgb(119, 184, 216));
+    z-index:6;
+   ;
 }
    
     
@@ -38,9 +36,10 @@ div.main-column h1#header {
             
              
               .topnav {
-                background-color: rgb(53, 50, 50);
+                  margin-top:5px;
+                background-color: rgba(81, 173, 209, 0.993);
                 overflow: hidden;
-                visibility:hidden;
+                
               }
               
               /* Style the links inside the navigation bar */
@@ -70,4 +69,15 @@ div.main-column h1#header {
               }
               nav.topnav > a:first-child{
                   margin-left:150px;
+              }
+             img#profile{
+                height:27vh;
+                width:16vw;
+                 margin-top:1%;
+                  display:block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  opacity:1.0;
+                  z-index:7;
+                  box-shadow: 5px 3px 3px 5px rgb(89, 124, 231);
               }
