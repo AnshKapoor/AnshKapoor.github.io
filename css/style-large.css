@@ -5,9 +5,14 @@
   
 }
 html{
-   /* background-image:url("../images/backimg.jpg");*/
     width:100%;
     height:100%;
+
+    background: url("../images/background.png") no-repeat center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
 }
 
 div.main-column h1#header {
@@ -22,197 +27,15 @@ div.main-column h1#header {
     animation-timing-function: ease-in;
     animation-delay: 2s;
     z-index:15;
+}
    
     
-}
-@keyframes moveInLeft{
-    0%{
-        opacity: 0;
-        
-        }
-        80%{
-          opacity:0.6;
-        }
-        100%{
-        opacity:1;
-        
-        }
-        }
-        @keyframes move-twink-back {
-            
-                from {background-position:0 0;}
-            
-                to {background-position:-1000px 5000px;}
-            
-            }
-            
-            @-webkit-keyframes move-twink-back {
-            
-                from {background-position:0 0;}
-            
-                to {background-position:-1000px 5000px;}
-            
-            }
+
+       
            
-            @-moz-keyframes move-twink-back {
             
-                from {background-position:0 0;}
-            
-                to {background-position:-1000px 5000px;}
-            
-            }
-            
-            @-ms-keyframes move-twink-back {
-            
-                from {background-position:0 0;}
-            
-                to {background-position:-1000px 5000px;}
-            
-            }
-            
-            @keyframes move-clouds-back {
-            
-                from {background-position:0 0;}
-            
-                to {background-position:1000px 0;}
-            
-            }
-            
-            @-webkit-keyframes move-clouds-back {
-            
-                from {background-position:0 0;}
-            
-                to {background-position:1000px 0;}
-            
-            }
-            
-            @-moz-keyframes move-clouds-back {
-            
-                from {background-position:0 0;}
-            
-                to {background-position:1000px 0;}
-            
-            }
-            
-            @-ms-keyframes move-clouds-back {
-            
-                from {background-position: 0;}
-            
-                to {background-position:1000px 0;}
-            
-            }
-            
-            .stars, .twinkling, .clouds {
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                -o-background-size: cover;
-                background-size: cover;
-                height: 100%;
-              position:absolute;
-            
-              top:0;
-            
-              left:0;
-            
-              right:0;
-            
-              bottom:0;
-            
-              width:100%;
-            
-              height:100%;
-            
-              display:block;
            
-            }
-        
-            .stars {
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                -o-background-size: cover;
-                background-size: cover;
-                height: 100%;
             
-              background:rgb(0, 0, 0) url(../images/stars.png) repeat top center;
-            
-              z-index:0;
-            
-            }
-            
-            .twinkling{
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                -o-background-size: cover;
-                background-size: cover;
-                height: 100%;
-            
-              background:transparent url(../images/twinkling.png) repeat top center;
-            
-              z-index:1;
-            
-              -moz-animation:move-twink-back 20s alternate-reverse 1;
-            
-              -ms-animation:move-twink-back 20s alternate-reverse 1;
-            
-              -o-animation:move-twink-back 20s alternate-reverse 1;
-            
-              -webkit-animation:move-twink-back 20s alternate-reverse 1;
-            
-              animation:move-twink-back 20s alternate-reverse 1;
-            
-            }
-            
-            .clouds{
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                -o-background-size: cover;
-                background-size: cover;
-                height: 100%;
-            
-                background:transparent url(../images/clouds.png) repeat top center;
-            
-                z-index:3;
-            
-              -moz-animation:move-clouds-back 200s linear infinite;
-        
-              -ms-animation:move-clouds-back 200s linear infinite;
-            
-              -o-animation:move-clouds-back 200s linear infinite;
-            
-              -webkit-animation:move-clouds-back 200s linear infinite;
-            
-              animation:move-clouds-back 200s linear infinite;
-            
-            }
-             .stars .main-column #ak{
-                font-size: 50px;
-                font-family: 'Times New Roman', Times, serif;
-                margin-top:19%;
-                margin-left:20%;
-                animation-name: moveInLeft;
-                animation-duration: 2s;
-                animation-timing-function: ease-in;
-                z-index:18;
-                color:rgb(85, 84, 100);
-                text-emphasis: bold;
-            }
-            .button {
-                background-color: #ddd;
-                border: none;
-                color: rgb(59, 53, 53);
-                padding: 10px 20px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                margin: 4px 2px;
-                cursor: pointer;
-                border-radius: 16px;
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-weight: 400;
-              }
-              .button:hover{
-                background-color: rgb(255, 253, 253);
-              }
              
               .topnav {
                 background-color: rgb(53, 50, 50);
