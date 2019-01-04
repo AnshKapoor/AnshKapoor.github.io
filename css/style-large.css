@@ -44,6 +44,8 @@ div#Intro{
             
              
               .topnav {
+                letter-spacing: 2px;
+                
                   margin-top:5px;
                 background-color: rgba(81, 173, 209, 0.993);
                 overflow: hidden;
@@ -57,7 +59,7 @@ div#Intro{
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
-                font-size: 17px;
+                font-size: 24px;
                 margin-left:60px;
               }
               .topnav .icon {
@@ -76,13 +78,13 @@ div#Intro{
                 color: white;
               }
               nav.topnav > a:first-child{
-                  margin-left:150px;
+                  margin-left:350px;
               }
              img#profile{
-                height:27vh;
-                width:18vw;
-                 margin-top:1%;
-                  display:block;
+                height:30vh;
+                width:22vw;
+                 margin-top:0.5%;
+                  display:flex;
                   margin-left: auto;
                   margin-right: auto;
                   opacity:1.0;
@@ -101,6 +103,7 @@ div#Intro{
 
             }
             #a,#b,#c{
-                color: rgb(223, 204, 204);
+              letter-spacing: 2px;
+                color: rgb(255, 255, 255);
                 text-shadow: 2px 2px;
             }
