@@ -26,8 +26,16 @@ div.upper-column  {
     z-index:6;
    ;
 }
-   
+div#Intro{
     
+    width:300px;
+    height:200px;
+    margin-left: 37%;
+    height: 200px;
+    margin-top: 5%;
+    font-size: 35px;
+} 
+
 
        
            
@@ -86,4 +94,8 @@ div.upper-column  {
                     height:27vh;
                     width:24vw;
               }
+            }
+            #a,#b,#c{
+                color: rgb(223, 204, 204);
+                text-shadow: 2px 2px;
             }
