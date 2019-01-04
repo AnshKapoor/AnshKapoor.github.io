@@ -89,11 +89,16 @@ div#Intro{
                   z-index:7;
                   
               }
-              @media screen and (max-width: 600px) {
+              @media screen and (max-width: 700px) {
                 img#profile{
                     height:27vh;
                     width:24vw;
               }
+              #a,#b,#c{
+                color: rgb(233, 91, 91);
+                text-shadow: 2px 2px;
+            }
+
             }
             #a,#b,#c{
                 color: rgb(223, 204, 204);
