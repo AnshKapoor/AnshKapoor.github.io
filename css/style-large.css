@@ -24,7 +24,7 @@ div.upper-column  {
     border-radius: 10px 5px 10px 5px;
     
     z-index:6;
-   ;
+   
 }
 div#Intro{
     
@@ -81,15 +81,22 @@ div#Intro{
                   margin-left:350px;
               }
              img#profile{
-                height:30vh;
-                width:22vw;
-                 margin-top:0.5%;
+                 height:30vh;
+                  width:15vw;
+                  margin-top:-1%;
                   display:flex;
                   margin-left: auto;
                   margin-right: auto;
-                  opacity:1.0;
+                  animation-name: ImageAppear;
+                  animation-duration: 5s;
+                  border-radius:50%;
+
                   z-index:7;
                   
+              }
+              hr{
+                height:5px;
+                background-color: white;
               }
               @media screen and (max-width: 700px) {
                 img#profile{
@@ -106,4 +113,37 @@ div#Intro{
               letter-spacing: 2px;
                 color: rgb(255, 255, 255);
                 text-shadow: 2px 2px;
+            }
+            @keyframes ImageAppear {
+              0%   {opacity:0.1;}
+              25%  {opacity:0.3;}
+              50%  {opacity: 0.7;}
+              100% {opacity:1.0;}
+            }
+            section{
+              background: url("../images/background.jpg") no-repeat center; 
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+               background-size: cover;
+               width:100vw;
+               height:100vh;
+            }
+            section h1#skills{
+              color:whitesmoke;
+              text-align: center;
+              font-style: normal;
+              font-size:50px;
+              letter-spacing: 4px;
+              transform: translateY(20px);
+            }
+            section div#Skills-box{
+              transform: translateX(120px);
+              margin-top:50px;
+              width:800px;
+              height:300px;
+              margin-left:30px;
+              border:none;
+              background-color: #ddd;
+             
             }

@@ -1,6 +1,6 @@
 window.onload = function(){
-    alert($(window).width());
-    alert($(window).height());
+   // alert($(window).width());
+   // alert($(window).height());
 $("#a").addClass("animated fadeInLeftBig delay-1s");
 $("#b").addClass("animated fadeInLeftBig delay-3s");
  $("#c").addClass("animated zoomInUp delay-4s");
