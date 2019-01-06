@@ -1,7 +1,7 @@
 *{
   padding:0;
   margin:0;  
- 
+  background-color:#2A2A2A;
   
 }
 html{
@@ -9,7 +9,7 @@ html{
     height:100%;
     box-sizing: border-box;
 
-    background: url("../images/background.jpg") no-repeat center; 
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -95,7 +95,7 @@ div#Intro{
                   z-index:7;
                   
               }
-              hr{
+              hr.rule{
                 height:5px;
                 background-color: white;
               }
@@ -122,7 +122,7 @@ div#Intro{
               100% {opacity:1.0;}
             }
             section{
-              background: url("../images/background.jpg") no-repeat center; 
+            
               -webkit-background-size: cover;
               -moz-background-size: cover;
               -o-background-size: cover;
@@ -131,13 +131,13 @@ div#Intro{
                height:140vh;
                box-sizing: border-box;
             }
-            section h1#skills{
+            section h1.skills{
               color:whitesmoke;
               text-align: center;
               font-style: normal;
               font-size:50px;
               letter-spacing: 4px;
-              transform: translateY(20px);
+              transform: translateY(10px);
             }
             section div#Skills-box{
               transform: translateX(200px) translateY(-20px);
@@ -220,3 +220,51 @@ div#Intro{
             .violet  { background: #8E5D9F; }
             .yellow  { background: #EFC32F; }
             .red     { background: #E44C41; }
+            div.box{
+              width: 30vw;
+              height: 40vh;
+              background-color: aliceblue;
+              margin-left: 85px;
+              border-radius: 6px;
+              border: 2px dashed black;
+               float:left;
+               margin-top: 30px;
+               transform: translateX(150px);
+               
+            }
+            p#getintouch{
+              margin-left:270px;
+              margin-top:50px;
+              width:50%;
+              height:60%;
+            
+              word-wrap: break-word;
+                font-size: 30px;
+                color: antiquewhite;
+            }
+            div.formarea{
+              margin-left:70px;
+              margin-top:30px;
+              font-size:30px;
+              color: #ddd;
+              transform: translateX(250px);
+            }
+            textarea#message{
+              resize:none;
+              width:40vw;
+              height:15vh;
+              font-style: normal;
+              font-size: 20px;
+              margin-top:20px;
+              border:2px solid white;
+              padding-top:20px;
+              padding-left:10px;
+              color:whitesmoke;
+            }
+            input[label="Enter your Name"]{
+              margin-left:8px;
+              width:10vw;
+              color:white;
+              height: 4vh;
+              transform: translateY(-4px);
+            }
