@@ -1,0 +1,494 @@
+body
+{
+   background-color: #00BFFF;
+   background-image: url(images/page5_bkgrnd.png);
+   background-repeat: repeat-x;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#NavigationBar1 ul.navbar
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#NavigationBar1 ul.navbar li
+{
+   height: 29px;
+   width: 155px;
+   float: left;
+   margin: 0 6px 0 0;
+}
+#NavigationBar1 ul.navbar li a
+{
+   display: block;
+   position: relative;
+}
+#NavigationBar1 ul.navbar li a img
+{
+   position: absolute;
+   left: 0;
+   z-index: 1;
+   border-width: 0;
+}
+#NavigationBar1 ul.navbar li span
+{
+   display: block;
+   height: 29px;
+   width: 155px;
+   position: absolute;
+   z-index: 2;
+}
+#NavigationBar1 a .hover
+{
+   visibility: hidden;
+}
+#NavigationBar1 a:hover .hover
+{
+   visibility: visible;
+}
+#NavigationBar1 a:hover span
+{
+   visibility: hidden;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image3
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image4
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image5
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image6
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image7
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_ClipArt1 a img
+{
+   position: absolute;
+   left: 0;
+}
+#wb_ClipArt1 span
+{
+   position: absolute;
+   left: 0;
+}
+#wb_ClipArt1 a .hover
+{
+   visibility: hidden;
+}
+#wb_ClipArt1 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_ClipArt1 a:hover span
+{
+   visibility: hidden;
+}
+#ClipArt1
+{
+   border-width: 0;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#Heading1
+{
+   color: #000000;
+   font-family: Terminal;
+   font-weight: bold;
+   font-size: 48px;
+   margin: 0;
+   text-align: left;
+   text-shadow: 0px 0px 2px rgba(0,0,0,0.50);
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_Heading2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#Heading2
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Heading3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#Heading3
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: left;
+}
+#Image8
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Article1
+{
+   background-color: transparent;
+   border: 1px solid #000000;
+   font-family: "Lucida Handwriting";
+   font-weight: normal;
+   font-size: 21px;
+   line-height: 1.0;
+   margin: 0;
+   text-align: left;
+}
+#Article1 .blogitem
+{
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: left;
+}
+#Article1 .blogdate
+{
+   font-family: "Lucida Handwriting";
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Article1 .blogsubject, #Article1 .blogsubject a:link, #Article1 .blogsubject a:visited, #Article1 .blogsubject a:hover
+{
+   font-family: "Lucida Handwriting";
+   font-weight: normal;
+   font-size: 17px;
+   color: #666666;
+   text-decoration: none;
+}
+#Article1 .blogcomments, #Article1 .blogcomments a:link, #Article1 .blogcomments a:visited, #Article1 .blogcomments a:hover
+{
+   font-family: "Lucida Handwriting";
+   font-weight: normal;
+   font-size: 21px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Article1 .blogcomments
+{
+   text-decoration: none;
+}
+#Article1 .no-thumb
+{
+   display: none;
+}
+#Article1 .blogitem
+{
+   display: block;
+   padding: 0px;
+   border-radius: 4px;
+   border: 1px solid rgba(0, 0, 0, .125);
+   font-family: Lucida Handwriting;
+   font-size: 21px;
+}
+#Article1 .blogthumb img
+{
+   border-width: 0;
+   display: table;
+   height: auto;
+   width: 100%;
+   border-top-left-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#Article1 .bloginfo
+{
+   padding: 1.5em;
+}
+#Article1 .bloginfo > p 
+{
+   margin-top: 0;
+}
+#Article1 .blogsubject
+{
+   margin: 0 0 0.5em 0;
+   display: block;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   width: 100%;
+   color: #666666;
+   font-size: 17px;
+}
+#Article1 .blogfooter
+{
+   padding: .75rem 1.25rem;
+   background-color: rgba(0,0,0,.03);
+   border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+#Article1 .blogbutton
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   text-decoration: none;
+   color: #fff;
+   background-color: #337AB7;
+   display: inline-block;
+   padding: 6px 12px;
+   margin-bottom: 0px;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.4285;
+   text-align: center;
+   white-space: nowrap;
+   vertical-align: middle;
+   cursor: pointer;
+   border: 1px solid transparent;
+   border-radius: 4px;
+}
+#Article1 .blogbutton:hover, #Article1 .blogbutton:focus 
+{
+   background-color: #286090;
+}
+
+#Article1 .blogdate, #Article1 .blogcomments
+{
+   display: none;
+}
+#Article1
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #000000;
+   font-family: "Lucida Handwriting";
+   font-weight: normal;
+   margin: 0;
+}
+#Article2
+{
+   background-color: transparent;
+   border: 1px solid #000000;
+   font-family: "Lucida Handwriting";
+   font-weight: normal;
+   font-size: 21px;
+   line-height: 1.0;
+   margin: 0;
+   text-align: left;
+}
+#Article2 .blogitem
+{
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: left;
+}
+#Article2 .blogdate
+{
+   font-family: "Lucida Handwriting";
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Article2 .blogsubject, #Article2 .blogsubject a:link, #Article2 .blogsubject a:visited, #Article2 .blogsubject a:hover
+{
+   font-family: "Lucida Handwriting";
+   font-weight: normal;
+   font-size: 17px;
+   color: #666666;
+   text-decoration: none;
+}
+#Article2 .blogcomments, #Article2 .blogcomments a:link, #Article2 .blogcomments a:visited, #Article2 .blogcomments a:hover
+{
+   font-family: "Lucida Handwriting";
+   font-weight: normal;
+   font-size: 21px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Article2 .blogcomments
+{
+   text-decoration: none;
+}
+#Article2 .no-thumb
+{
+   display: none;
+}
+#Article2 .blogitem
+{
+   display: block;
+   padding: 0px;
+   border-radius: 4px;
+   border: 1px solid rgba(0, 0, 0, .125);
+   font-family: Lucida Handwriting;
+   font-size: 21px;
+}
+#Article2 .blogthumb img
+{
+   border-width: 0;
+   display: table;
+   height: auto;
+   width: 100%;
+   border-top-left-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#Article2 .bloginfo
+{
+   padding: 1.5em;
+}
+#Article2 .bloginfo > p 
+{
+   margin-top: 0;
+}
+#Article2 .blogsubject
+{
+   margin: 0 0 0.5em 0;
+   display: block;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   width: 100%;
+   color: #666666;
+   font-size: 17px;
+}
+#Article2 .blogfooter
+{
+   padding: .75rem 1.25rem;
+   background-color: rgba(0,0,0,.03);
+   border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+#Article2 .blogbutton
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   text-decoration: none;
+   color: #fff;
+   background-color: #337AB7;
+   display: inline-block;
+   padding: 6px 12px;
+   margin-bottom: 0px;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.4285;
+   text-align: center;
+   white-space: nowrap;
+   vertical-align: middle;
+   cursor: pointer;
+   border: 1px solid transparent;
+   border-radius: 4px;
+}
+#Article2 .blogbutton:hover, #Article2 .blogbutton:focus 
+{
+   background-color: #286090;
+}
+
+#Article2 .blogdate, #Article2 .blogcomments
+{
+   display: none;
+}
+#Article2
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #000000;
+   font-family: "Lucida Handwriting";
+   font-weight: normal;
+   margin: 0;
+}
