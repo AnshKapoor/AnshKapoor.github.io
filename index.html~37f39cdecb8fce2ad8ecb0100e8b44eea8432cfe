@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 14 - http://www.wysiwygwebbuilder.com">
+<link href="Untitled1.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+</head>
+<body>
+<div id="NavigationBar1" style="position:absolute;left:370px;top:12px;width:645px;height:29px;z-index:0;">
+<ul class="navbar">
+<li><a href=""><img alt="" src="images/img0001_over.gif" class="hover"><span><img alt="" src="images/img0001.gif"></span></a></li>
+<li><a href=""><img alt="" src="images/img0002_over.gif" class="hover"><span><img alt="" src="images/img0002.gif"></span></a></li>
+<li><a href=""><img alt="" src="images/img0003_over.gif" class="hover"><span><img alt="" src="images/img0003.gif"></span></a></li>
+<li><a href=""><img alt="" src="images/img0004_over.gif" class="hover"><span><img alt="" src="images/img0004.gif"></span></a></li>
+</ul>
+</div>
+<div id="wb_Text1" style="position:absolute;left:577px;top:99px;width:141px;height:32px;text-align:center;z-index:1;">
+<h2>Hello</h2></div>
+<div id="wb_Text2" style="position:absolute;left:523px;top:318px;width:272px;height:40px;z-index:2;">
+<span style="color:#000000;font-family:'Comic Sans MS';font-size:29px;"><strong>I am Ansh Kapoo</strong></span><h1>r</h1></div>
+<div id="wb_Image1" style="position:absolute;left:577px;top:152px;width:131px;height:149px;z-index:3;">
+<img src="images/abo396oivs.jpg" id="Image1" alt=""></div>
+<div id="wb_Text3" style="position:absolute;left:489px;top:386px;width:317px;height:50px;text-align:center;z-index:4;">
+<span style="color:#000000;font-family:'High Tower Text';font-size:21px;"><strong><em>Programmer,Web Developer and AI Enthusiast</em></strong></span></div>
+<div id="wb_Image2" style="position:absolute;left:71px;top:123px;width:59px;height:59px;z-index:5;">
+<a href="https://github.com/AnshKapoor" target="_blank" title="Github"><img src="images/hik716s09v.jpg" id="Image2" alt=""></a></div>
+<div id="wb_Image3" style="position:absolute;left:72px;top:215px;width:59px;height:59px;z-index:6;">
+<a href="https://www.codechef.com/users/ak1010" title="Codechef"><img src="images/6bsuvwxtia.jpg" id="Image3" alt=""></a></div>
+<div id="wb_Image4" style="position:absolute;left:1059px;top:123px;width:66px;height:58px;z-index:7;">
+<img src="images/gwwj37ewl8.jpg" id="Image4" alt=""></div>
+<div id="wb_Image5" style="position:absolute;left:1059px;top:214px;width:61px;height:61px;z-index:8;">
+<img src="images/wbendtlmio.jpg" id="Image5" alt=""></div>
+<div id="wb_Image6" style="position:absolute;left:72px;top:326px;width:60px;height:60px;z-index:9;">
+<img src="images/a36dgargk2.jpg" id="Image6" alt=""></div>
+<div id="wb_Image7" style="position:absolute;left:1061px;top:301px;width:57px;height:57px;z-index:10;">
+<img src="images/ubiwal4b6a.jpg" id="Image7" alt=""></div>
+<div id="wb_ClipArt1" style="position:absolute;left:1246px;top:213px;width:57px;height:88px;z-index:11;">
+<a href=""><img class="hover" src="images/img0005_hover.png" alt="" style="border-width:0;width:57px;height:88px;"><span><img src="images/img0005.png" id="ClipArt1" alt="" style="width:57px;height:88px;"></span></a></div>
+</body>
+</html>
