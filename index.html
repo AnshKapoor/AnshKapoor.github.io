@@ -87,6 +87,7 @@
                                         <li><a class="smooth-menu" href="#about">About</a></li>
                                         <li><a class="smooth-menu" href="#portfolio">Portfolio</a></li>
                                         <li><a class="smooth-menu" href="#contact">Contact</a></li>
+                                        <li><a class="smooth-menu" href="#contact">Credits</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -96,8 +97,37 @@
 
                 <!--main menu ends-->
             </div>
+           
         </div>
     </header>
+     <div class="container">
+         <div class="row">
+             <div class="col-md-6">
+                 <!-- Modal conatiners -->
+             <!-- Modal -->
+             <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p id="typed-strings">
+
+                        </p>
+                        <span id="typed"></span>
+                    </div>
+                   
+                </div>
+                
+                </div>
+              </div>
+             </div>
+         </div>
+    </div>
 
     <!--navigation area ends-->
 
@@ -112,21 +142,8 @@
                             <div class="col-md-12">
                                 <section class="intro animate-scale">
 
-                                    <h3>Welcome to my Website</h3>
-
-                                    <h1 class="ah-headline">
-
-                                        <span class="ah-words-wrapper">
-                                            
-<b class="is-visible">Ansh Kapoor</b>                                           <b>Web Designer</b> 
-                                            <b>Programmer</b> 
-                                            <b>Web Developer</b> 
-                                      </span>
-                                    </h1>
-
-                                    <a href="#contact" class="banner-btn">Contact me</a>
-
-
+                                    <h3>Hi, I am Ansh Kapoor</h3>
+                                    <button type="button" class="btn btn-info btn-lg banner-btn" data-toggle="modal" data-target="#myModal">View my story</button>                                   
                                 </section>
 
                                 <div class="clearfix"></div>
@@ -136,6 +153,7 @@
                                         <span class="mouse-movement"></span>
                                     </span>
                                 </a>
+                              
                             </div>
                         </div>
                     </div>
@@ -683,6 +701,8 @@
     <!--Bootstrap js-->
     <script src="js/bootstrap.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
 	<!--Magnific popup js-->
 	<script src="js/jquery.magnific-popup.js"></script>
 
@@ -714,6 +734,17 @@
     <script src="js/main.js"></script>
     
     <script>
+        $('#myModal').on('show.bs.modal',function(){
+            var typed = new Typed('#typed', {
+            strings: ["Hi my name is Ansh Kapoor.", "I was born and brought up in New Delhi.","Thank you for opening my profile","Bye"],
+            typeSpeed: 10,
+            startDelay: 1000,
+            loop:true,
+            backSpeed: 0,
+});
+
+        });
+    
 
 	</script>
 </body>
