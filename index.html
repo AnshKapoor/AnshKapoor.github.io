@@ -103,7 +103,7 @@
      <div class="container">
          <div class="row">
              <div class="col-md-6">
-                 <!-- Modal conatiners -->
+                 <!-- Modal containers -->
              <!-- Modal -->
              <div class="modal fade" id="myModal" role="dialog">
                 <div class="modal-dialog">
@@ -112,7 +112,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Modal Header</h4>
+                    <h4 class="modal-title">My developer story</h4>
                     </div>
                     <div class="modal-body">
                         <p id="typed-strings">
@@ -143,7 +143,7 @@
                                 <section class="intro animate-scale">
 
                                     <h3>Hi, I am Ansh Kapoor</h3>
-                                    <button type="button" class="btn btn-info btn-lg banner-btn" data-toggle="modal" data-target="#myModal">View my story</button>                                   
+                                    <button type="button" id="story_button"class="btn btn-info btn-lg banner-btn" data-toggle="modal" data-target="#myModal">View my story</button>                                   
                                 </section>
 
                                 <div class="clearfix"></div>
@@ -621,10 +621,10 @@
                         <i class="fa fa-gg"></i>
                         <h2>Social Media: </h2>
                         <div class="socials">
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> <!--your facebook profile link here-->
-                            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a> <!--your linkedin profile link here-->
-                            <a href="https://twitter.com/?lang=en" target="_blank"><i class="fa fa-twitter"></i></a> <!--your twitter profile link here-->
-                            <a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a> <!--your pinterest profile link here-->
+                            <a href="https://www.facebook.com/ansh.kapoor.1232/" target="_blank"><i class="fa fa-facebook"></i></a> <!--your facebook profile link here-->
+                            <a href="https://www.linkedin.com/in/ansh-kapoor-65b423149/" target="_blank"><i class="fa fa-linkedin"></i></a> <!--your linkedin profile link here-->
+                            <a href="https://twitter.com/AnshKap33639127" target="_blank"><i class="fa fa-twitter"></i></a> <!--your twitter profile link here-->
+                            <a href="https://in.pinterest.com/ansh605/boards/" target="_blank"><i class="fa fa-pinterest"></i></a> <!--your pinterest profile link here-->
                         </div>
                     </div>
                 </div>
@@ -736,11 +736,11 @@
     <script>
         $('#myModal').on('show.bs.modal',function(){
             var typed = new Typed('#typed', {
-            strings: ["Hi my name is Ansh Kapoor.", "I was born and brought up in New Delhi.","Thank you for opening my profile","Bye"],
-            typeSpeed: 10,
+            strings: ['Hi my name is Ansh Kapoor.^1000\n I was born and brought up in New Delhi.^1000\n Thank you for opening my profile.^1000\n `Bye`'],
+            typeSpeed: 100,
             startDelay: 1000,
             loop:true,
-            backSpeed: 0,
+            backSpeed: 50,
 });
 
         });

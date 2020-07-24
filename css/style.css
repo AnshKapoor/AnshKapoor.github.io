@@ -1,33 +1,4 @@
-/* =================================================
 
-Template Name:  Personal Portfolio HTML Template
-Author: MouriTheme
-Version: 1.0
-Design and Developed by: MouriTheme
-
-NB: This file contains the styling for the actual theme, this is the file you need to edit to change the look of the theme.
-
-=================================================== */
-
-/*Table of Content
-
-
-    1. Default css
-    2. Preloader css
-    3. Mouse Animation css
-    4. Nav Area css
-    5. Banner Area css
-    6. About Area css
-    7. Services Area css
-    8. Number Area css
-    9. Portfolio Area css
-    10. Testimonial Area css
-    11. Contact Area css
-    12. Brand Area css
-    13. Footer Area css
-
-
-*/
 
 /*--- 1. Default css starts ---*/
 
@@ -1044,8 +1015,9 @@ canvas{
 button.close{
     margin-right: 5px;
 }
-
-
+button#story_button{
+    border:none;
+}
 
 
 
